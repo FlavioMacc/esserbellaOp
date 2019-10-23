@@ -1,0 +1,13 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:gwt='urn:import:com.google.gwt.user.client.ui'
+	xmlns:res='urn:with:it.objectmethod.esserbella.client.resources.PresenzaAddViewResources'>
+	<ui:with type="it.objectmethod.esserbella.client.resources.PresenzaAddViewResources" field="res">
+	</ui:with>
+	<gwt:HTMLPanel>
+		<gwt:Label ui:field = "dataLabel" text = "Inserisci data presenza "/>
+		<gwt:TextBox ui:field = "idOperatore" text="id operatore"/>
+		<gwt:TextBox ui:field = "dataInizio" />
+		<gwt:TextBox ui:field = "dataFine" />
+		<gwt:Button ui:field = "submit" text="Submit"/>
+	</gwt:HTMLPanel>
+</ui:UiBinder> 

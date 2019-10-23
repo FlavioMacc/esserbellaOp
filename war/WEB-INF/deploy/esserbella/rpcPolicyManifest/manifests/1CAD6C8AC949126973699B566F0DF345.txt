@@ -1,0 +1,2 @@
+serviceClass: it.objectmethod.esserbella.client.rest.EsserbellaResource
+path: 01875AB1B246F44B50ED97FEAF3C8B42.gwt.rpc
