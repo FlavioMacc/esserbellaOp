@@ -1,6 +1,6 @@
 package it.objectmethod.esserbella.client.view;
 
-import javax.inject.Inject;
+//import javax.inject.Inject;
 
 import com.google.gwt.core.client.GWT;
 import com.google.gwt.event.dom.client.ClickEvent;
@@ -15,14 +15,14 @@ import com.google.gwt.user.client.ui.TextBox;
 import com.google.gwt.user.client.ui.Widget;
 
 import it.objectmethod.esserbella.client.resources.PresenzaAddViewResources;
-import it.objectmethod.esserbella.client.rest.EsserbellaResource;
+//import it.objectmethod.esserbella.client.rest.EsserbellaResource;
 
 public class PresenzaAddView extends Composite {
 
 	private static PresenzaAddViewUiBinder uiBinder = GWT.create(PresenzaAddViewUiBinder.class);
 	
-	@Inject
-	private EsserbellaResource es;
+	//@Inject
+	//private EsserbellaResource es;
 
 	@UiTemplate("PresenzaAddView.ui.xml")
 	interface PresenzaAddViewUiBinder extends UiBinder<Widget, PresenzaAddView> {

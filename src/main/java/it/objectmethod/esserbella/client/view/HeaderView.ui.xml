@@ -1,0 +1,19 @@
+<ui:UiBinder xmlns:ui='urn:ui:com.google.gwt.uibinder'
+	xmlns:gwt='urn:import:com.google.gwt.user.client.ui'
+	xmlns:res='urn:with:it.objectmethod.esserbella.client.resources.HeaderViewResources'>
+	<ui:with
+		type="it.objectmethod.esserbella.client.resources.HeaderViewResources"
+		field="res">
+	</ui:with>
+
+	<gwt:HTMLPanel>
+		<nav class="navbar navbar-dark bg-dark">
+			<gwt:Anchor ui:field="a" styleName="navbar-brand" href="#">
+				<img src="http://127.0.0.1:8888/scr/main/webapp/logo esserbella.png" width="30" height="30"
+					class="d-inline-block align-top" alt="" />
+				ESSERBELLA
+			</gwt:Anchor>
+		</nav>
+	</gwt:HTMLPanel>
+
+</ui:UiBinder>

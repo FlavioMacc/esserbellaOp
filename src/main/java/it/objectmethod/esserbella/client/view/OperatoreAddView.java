@@ -10,9 +10,9 @@ import com.google.gwt.user.client.Window;
 import com.google.gwt.user.client.rpc.AsyncCallback;
 import com.google.gwt.user.client.ui.Button;
 import com.google.gwt.user.client.ui.Composite;
-import com.google.gwt.user.client.ui.FormPanel;
 import com.google.gwt.user.client.ui.Label;
 import com.google.gwt.user.client.ui.TextBox;
+import com.google.gwt.user.client.ui.VerticalPanel;
 import com.google.gwt.user.client.ui.Widget;
 
 import it.objectmethod.esserbella.client.resources.OperatoreAddViewResources;
@@ -31,15 +31,18 @@ public class OperatoreAddView extends Composite {
 
 	@UiField(provided = true)
 	final OperatoreAddViewResources res;
+	
+	@UiField
+	Label titlePage;
 
 	@UiField
 	Label nomeOpLabel;
 
 	@UiField
 	TextBox nomeOpTextBox;
-
+	
 	@UiField
-	FormPanel form;
+	VerticalPanel vp;
 
 	@UiField
 	Button button;
@@ -66,11 +69,6 @@ public class OperatoreAddView extends Composite {
 		this.res = GWT.create(OperatoreAddViewResources.class);
 		res.style().ensureInjected();
 		initWidget(uiBinder.createAndBindUi(this));
-
-		/*form.setAction("esserbellaRest/insertOperatore");
-		form.setEncoding(FormPanel.ENCODING_URLENCODED);
-		form.setMethod(FormPanel.METHOD_POST);*/
-
 	}
 
 }
