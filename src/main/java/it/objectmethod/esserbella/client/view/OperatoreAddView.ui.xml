@@ -10,9 +10,11 @@
 		<gwt:VerticalPanel ui:field="vp">
 			<gwt:Label ui:field="titlePage" text="INSERISCI OPERATORE" res:styleName="{res.style.title}"/>
 			<gwt:Label ui:field="nomeOpLabel"
-				text="Inserisci nome operatore" />
-			<gwt:TextBox ui:field="nomeOpTextBox" />
-			<gwt:Button ui:field="button" text="Submit" />
+				text="Inserisci nome operatore" res:styleName="{res.style.marginTen}"/>
+			<gwt:TextBox ui:field="nomeOpTextBox" res:styleName="{res.style.marginTen}"/>
+			<gwt:Button ui:field="button" text="Submit" styleName="btn btn-secondary"/>
+			
+			<gwt:Button ui:field="viewAllOp" text="Vedi tutti gli operatori" styleName="btn btn-secondary" />
 		</gwt:VerticalPanel>
 	</gwt:HTMLPanel>
 </ui:UiBinder> 

@@ -8,6 +8,8 @@ public interface OperatoreAddViewResources extends ClientBundle {
 	public interface MyCss extends CssResource {
 		String title();
 		String style();
+		String marginTen();
+		String button();
 	}
 
 	@Source("OperatoreAddView.css")
